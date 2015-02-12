@@ -1,0 +1,39 @@
+.background2{ 
+background-image: url("background2.png");
+
+background-repeat: repeat-x;
+padding:0px;
+margin:0px;
+width: 100%;
+min-height:100px;
+height:370px;
+} 
+
+.background{
+background-image: url("background.png");
+background-repeat: repeat-x;
+padding:0px;
+margin:0px;
+width: 100%;
+min-height:100px;
+height: 370px;
+}
+p { 
+color: blue; 
+} 
+h3{ 
+color: white; 
+}
+
+.Container{
+  height:115px;
+  width:100%;
+  background:orange;
+  position: absolute; bottom: 305px;
+  
+}
+
+body{
+padding:0px;
+margin:0px;
+}
