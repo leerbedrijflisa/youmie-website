@@ -5,6 +5,7 @@
 		padding: 0px;
 		margin: 0px;
 		background-image: url("../images/backgroundCirkel.png");
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	.logo
@@ -28,7 +29,7 @@
 		padding: 0px;
 		margin: 0px;
 		width: 100%;
-		min-height: 260px;
+		min-height: 220px;
 		background-color: #ED3232;
 	}
 
@@ -50,47 +51,22 @@
 		margin-bottom: 5px;
 	}
 
-	.header span
-	{
-		width: 720px;
-		height: 20px;
-		text-align: right;
-		bottom: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-		display: block;
-		position: absolute;
-	}
-
 	.header iframe
 	{
 		height: 220px;
-		width: 350px;
-		vertical-align: middle;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 20px;
-		margin-bottom: 0px;
-	}
-
-	#video
-	{
-		height: 240px;
 		float: left;
 		width: 350px;
 		padding: 0px;
 		margin-left: 20px;
 		margin-right: 0px;
 		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	#intro
 	{
 		width: 720px;
-		min-height: 260px;
+		min-height: 220px;
 		float: left;
 		padding: 0px;
 		margin-left: 20px;
@@ -98,7 +74,6 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 		color: white;
-		position: relative;
 	}
 	
 	.content h1
@@ -230,7 +205,7 @@
 		padding: 0px;
 		margin: 0px;
 		width: 100%;
-		min-height: 260px;
+		min-height: 220px;
 		background-color: #ED3232;
 	}
 
@@ -252,47 +227,22 @@
 		margin-bottom: 5px;
 	}
 
-	.header span
-	{
-		width: 720px;
-		height: 20px;
-		text-align: right;
-		bottom: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-		display: block;
-		position: absolute;
-	}
-
 	.header iframe
 	{
 		height: 220px;
-		width: 350px;
-		vertical-align: middle;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 20px;
-		margin-bottom: 0px;
-	}
-
-	#video
-	{
-		height: 240px;
 		float: left;
 		width: 350px;
 		padding: 0px;
 		margin-left: 20px;
 		margin-right: 0px;
 		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	#intro
 	{
 		width: 720px;
-		min-height: 260px;
+		min-height: 220px;
 		float: left;
 		padding: 0px;
 		margin-left: 20px;
@@ -300,7 +250,6 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 		color: white;
-		position: relative;
 	}
 
 	.content a
