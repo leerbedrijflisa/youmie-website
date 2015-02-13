@@ -6,25 +6,22 @@ padding:0px;
 margin:0px;
 width: 100%;
 min-height:100px;
-height:370px;
+height:400px;
 } 
 
 .background{
 background-image: url("background.png");
-
-padding:0px;
-margin:0px;
-width: 100%;
-min-height:100px;
-height: 500px;
-z-index: -2;
+display: table;
+    width: 100%;
+    padding: 0;
 }
+
 
 
 .Container{
   height:150px;
   width:100%;
-  background:#F37825;
+  /*background:#F37825;*/
   position: absolute; bottom: 800px; top: 220px;
 }
 
@@ -32,8 +29,8 @@ z-index: -2;
 .Container2{
   height:250px;
   width:100%;
-  background:#F37825;
-  bottom: 300px; top: 800px;
+   /*background:#F37825;*/
+  bottom: 300px; top: 600px;
   position: absolute;
 }
 
@@ -45,25 +42,25 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .dobblelogo{
-position: absolute;
-    left: 100px;
-    top: 150px;
+display: table-cell;
+    font-size: 50pt;
+    padding: 10px;
+    text-align: center;
 }
 
 .foliologo{
-position:absolute; 
-bottom: 0px; left: 1100px; top:400px;
-height: 100px;
-z-index: 1;
+display: table-cell;
+    font-size: 50pt;
+    padding: 10px;
+    text-align: center;
+ 
 }
 
 .wannalogo{
-position:absolute; 
-background-image: url("wanna_logo.png");
-bottom: 0px; left: 50px; top:400px;
-width: 341px;
-height: 146px;
-z-index: 1;
+display: table-cell;
+    font-size: 50pt;
+    padding: 10px;
+    text-align: center;
 }
 
 .youmielogo{
