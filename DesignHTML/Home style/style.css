@@ -29,12 +29,11 @@ z-index: -2;
 }
 
 
-.Container2{
-  height:250px;
-  width:100%;
-  background:#F37825;
-  bottom: 300px; top: 800px;
-  position: absolute;
+.Container2
+{
+  height: 250px;
+  width: 100%;
+  background: #F37825;
 }
 
 
@@ -81,4 +80,18 @@ z-index: 1;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+
+.footer
+{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+
+.footer img
+{
+	float: right;
+	height: 40px;
+	padding: 5px;
 }
