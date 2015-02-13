@@ -252,20 +252,6 @@
 		margin-bottom: 5px;
 	}
 
-	.header span
-	{
-		width: 720px;
-		height: 20px;
-		text-align: right;
-		bottom: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-		display: block;
-		position: absolute;
-	}
-
 	.header iframe
 	{
 		height: 220px;
