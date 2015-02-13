@@ -127,8 +127,8 @@ body
 	.header iframe
 	{
 		min-height: 300px;
-		width: 97%;
-		margin-left: 5px;
+		width: 96%;
+		margin-left: 2%;
 		margin-right: 5px;
 		margin-top: 0px;
 		margin-bottom: 5px;
@@ -136,9 +136,9 @@ body
 
 	#intro
 	{
-		width: 97%;
+		width: 96%;
 		min-height: 0px;
-		margin-left: 5px;
+		margin-left: 2%;
 		margin-right: 5px;
 		margin-top: 0px;
 		margin-bottom: 10px;
