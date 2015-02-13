@@ -21,7 +21,7 @@ display: table;
 .Container{
   height:150px;
   width:100%;
-  /*background:#F37825;*/
+  background:#F37825;
   position: absolute; bottom: 800px; top: 220px;
 }
 
@@ -30,7 +30,7 @@ display: table;
 .Container2{
   height:250px;
   width:100%;
-   /*background:#F37825;*/
+  background:#F37825;
   bottom: 300px; top: 600px;
   position: absolute;
 }
@@ -63,13 +63,9 @@ display: table-cell;
     text-align: center;
 }
 
-.youmielogo
-{
-	width: 100%;
-	padding-top: 10px;
-}
 
-.youmielogo img
+
+.youmielogo 
 {
 	width: 170px;
 	height: 170px;
