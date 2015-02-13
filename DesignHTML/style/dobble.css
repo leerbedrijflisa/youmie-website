@@ -1,81 +1,5 @@
 @media all and (min-width: 801px)
 {
-	body
-	{
-		padding: 0px;
-		margin: 0px;
-		background-image: url("../images/backgroundCirkel.png");
-		font-family: 'Open Sans', sans-serif;
-	}
-
-	.logo
-	{
-		width: 100%;
-	}
-
-	.logo img
-	{
-		padding: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-		height: 75px;
-	}
-
-	.header
-	{
-		padding: 0px;
-		margin: 0px;
-		width: 100%;
-		min-height: 220px;
-		background-color: #ED3232;
-	}
-
-	.header div
-	{
-		max-width: 1130px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 0px;
-		margin-top: 0px;
-		overflow: hidden;
-	}
-
-	.header p
-	{
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-	}
-
-	.header iframe
-	{
-		height: 220px;
-		float: left;
-		width: 350px;
-		padding: 0px;
-		margin-left: 20px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-
-	#intro
-	{
-		width: 720px;
-		min-height: 220px;
-		float: left;
-		padding: 0px;
-		margin-left: 20px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		color: white;
-	}
-	
 	.content h1
 	{
 		max-width: 1090px;
@@ -149,26 +73,6 @@
 		font-weight: normal;
 	}
 
-	.content div
-	{
-		max-width: 1130px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 0px;
-		margin-top: 0px;
-	}
-
-	.content
-	{
-		width: 100%;
-		min-height: 350px;
-		margin: 0px;
-		padding-top: 70px;
-		padding-bottom: 20px;
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-
 	#uneven
 	{
 		background-color: #DEDEDE;
@@ -177,81 +81,6 @@
 
 @media all and (max-width: 800px)
 {
-	body
-	{
-		padding: 0px;
-		margin: 0px;
-		background-image: url("../images/backgroundCirkel.png");
-	}
-
-	.logo
-	{
-		width: 100%;
-	}
-
-	.logo img
-	{
-		padding: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		margin-left: auto;
-		margin-right: auto;
-		display: block;
-		height: 75px;
-	}
-
-	.header
-	{
-		padding: 0px;
-		margin: 0px;
-		width: 100%;
-		min-height: 220px;
-		background-color: #ED3232;
-	}
-
-	.header div
-	{
-		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 0px;
-		margin-top: 0px;
-		overflow: hidden;
-	}
-
-	.header p
-	{
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 5px;
-	}
-
-	.header iframe
-	{
-		height: 220px;
-		float: left;
-		width: 350px;
-		padding: 0px;
-		margin-left: 20px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-
-	#intro
-	{
-		width: 720px;
-		min-height: 220px;
-		float: left;
-		padding: 0px;
-		margin-left: 20px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		color: white;
-	}
-
 	.content a
 	{
 		color: black;
@@ -322,23 +151,5 @@
 		padding-bottom: 0px;
 		font-weight: normal;
 		float: left;
-	}
-
-	.content div
-	{
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.content
-	{
-		width: 100%;
-		min-height: 0px;
-		margin: 0px;
-		padding-bottom: 0px;
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-top: 10px;
-		background-color: white;
 	}
 }
