@@ -1,12 +1,12 @@
 .background2{ 
 background-image: url("../images/backgroundCirkel.png");
 z-index: -2;
-margin-top: 0px;
 padding:0px;
+padding-top: 20px;
 margin:0px;
 width: 100%;
 min-height:100px;
-height:400px;
+height:350px;
 } 
 
 .background{
@@ -31,8 +31,6 @@ display: table;
   height:250px;
   width:100%;
   background:#F37825;
-  bottom: 300px; top: 600px;
-  position: absolute;
 }
 
 body{
@@ -88,4 +86,14 @@ display: table-cell;
 	float: right;
 	height: 40px;
 	padding: 5px;
+}
+
+@media all and (min-width: 801px)
+{
+
+}
+
+@media all and (max-width: 800px)
+{
+
 }
