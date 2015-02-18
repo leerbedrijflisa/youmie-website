@@ -1,5 +1,26 @@
 body
 {
+	margin: 0px;
+	background-image: url("../common/background.png");
+	font-family: Open Sans, sans-serif;
+}
+
+header h1
+{
+    text-align: center;
+    margin: 0;
+    background-image: url("../common/background.png");
+    background-color: white;
+}
+
+header
+{
+    background-color: #D11A0B;
+}
+
+/*
+body
+{
 	padding: 0px;
 	margin: 0px;
 	background-image: url("../common/background.png");
@@ -153,4 +174,4 @@ body
 		padding-top: 10px;
 		background-color: white;
 	}
-}
+}*/
