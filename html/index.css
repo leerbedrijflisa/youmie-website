@@ -1,3 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #F37825;
+    font-family: Open Sans, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-image: url("common/background.png");
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px 0;
+    margin-bottom: 150px;
+}
+
+ul {
+    background-image: url("background.png");
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 250px;
+}
+
+li {
+    display: table-cell;
+    text-align: center;
+}
+
+li img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.footer {
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 1pt; /* fixes padding of five pixels at the bottom */
+}
+
+.footer img {
+    margin-right: 20px;
+}
+
+/*
 .background2{ 
 background-image: url("common/background.png");
 z-index: -2;
@@ -33,11 +81,7 @@ display: table;
   background:#F37825;
 }
 
-body{
-padding:0px;
-margin:0px;
-font-family: 'Open Sans', sans-serif;
-}
+
 
 .dobblelogo{
 display: table-cell;
@@ -97,3 +141,4 @@ display: table-cell;
 {
 
 }
+*/
