@@ -1,4 +1,12 @@
-
+section a
+{
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+	
 /*
 @media all and (min-width: 801px)
 {
@@ -25,14 +33,7 @@
 		float: left;
 	}
 
-	.content a
-	{
-		padding: 0px;
-		margin: 0px;
-		cursor: pointer;
-		color: black;
-		text-decoration: none;
-	}
+
 
 	.content a:hover
 	{

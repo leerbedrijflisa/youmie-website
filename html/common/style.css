@@ -16,6 +16,13 @@ header h1
 header
 {
     background-color: #D11A0B;
+	display: block;
+}
+
+header iframe
+{
+	display: block;
+	height: 220px;
 }
 
 /*
