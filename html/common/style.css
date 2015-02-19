@@ -12,9 +12,6 @@ header img
     background-image: url("../common/background.png");
     background-color: white;
 	display: block;
-	width: 350px;
-	padding-left: calc(50% - 175px);
-	padding-right: calc(50% - 175px);
 }
 
 header
@@ -32,10 +29,8 @@ header iframe
 
 	height: 220px;
 	width: 300px;
-	padding-right: 0px;
-	margin-left: 10px;
-	overflow: left;
-	float: right;
+	padding: 0;
+	display: block;
 }
 
 header div
@@ -67,20 +62,52 @@ header p
 	margin: 0;
 }
 
-@media all and (min-width: 801px)
+@media all and (min-width: 601px)
 {	
+	header img
+	{
+		width: 350px;
+		padding-left: calc(50% - 175px);
+		padding-right: calc(50% - 175px);
+	}
+
 	header div
 	{
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	
+	header iframe
+	{
+		margin-left: 10px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		overflow: left;
+		float: right;
+	}
 }
 
-@media all and (max-width: 800px)
+@media all and (max-width: 600px)
 {
+	header img
+	{
+		width: 200px;
+		padding-left: calc(50% - 100px);
+		padding-right: calc(50% - 100px);
+	}
+
 	header div
 	{
 		padding-left: 5px;
 		padding-right: 5px;
+	}
+	
+	header iframe
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 5px;
+		margin-top: 10px;
 	}
 }
