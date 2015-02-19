@@ -1,52 +1,135 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-body {
-    background: #F37825;
-    font-family: Open Sans, sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
 
-h1 {
-    background-image: url("common/background.png");
-    background-color: white;
-    text-align: center;
-    margin-top: 0;
-    padding: 20px 0;
-    margin-bottom: 150px;
-}
+@media all and (min-width: 601px)
+{
+  body {
+      background: #F37825;
+      font-family: Open Sans, sans-serif;
+      padding: 0px;
+      margin: 0px;
+  }
 
-ul {
-    background-image: url("background.png");
+  header {
+      background-image: url("common/background.png");
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      margin-bottom: 150px;
+  }
+
+  header img {
     display: table;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 250px;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  ul {
+      background-image: url("background.png");
+      display: table;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 250px;
+
+  }
+
+  li {
+      display: table-cell;
+      text-align: center;
+
+
+  }
+
+  li img {
+      width: 100%;
+      max-width: 300px;
+  }
+
+  footer {
+
+      width:100%;
+      background-color: white;
+      text-align: right;
+      padding: 23px;
+      font-size: 1pt; /* fixes padding of five pixels at the bottom */
+  }
+
+  footer img {
+      margin-right: 20px;
+      display: table;
+  }
+
+
 }
 
-li {
-    display: table-cell;
-    text-align: center;
-}
+@media all and (max-width: 600px)
+{
+  body {
+      background: #F37825;
+      font-family: Open Sans, sans-serif;
+      padding: 0px;
+      margin: 0px;
+  }
 
-li img {
-    width: 100%;
-    max-width: 300px;
-}
+  header {
+      background-image: url("common/background.png");
+      background-color: white;
+      margin-top: 0;
+      padding: 20px 0;
+      margin-bottom: 150px;
+  }
 
-.footer {
-    background-color: white;
-    text-align: right;
-    padding: 10px;
-    font-size: 1pt; /* fixes padding of five pixels at the bottom */
-}
+  header img {
+    display: table;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.footer img {
-    margin-right: 20px;
+
+
+  ul {
+      background-image: url("background.png");
+      display: table;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 250px;
+
+  }
+
+  li {
+      display: table-cell;
+      text-align: center;
+
+
+  }
+
+  li img {
+      width: 50%;
+      max-width: 300px;
+
+  }
+
+  footer {
+
+      background-color: white;
+      text-align: right;
+      padding: 23px;
+      font-size: 1pt; /* fixes padding of five pixels at the bottom */
+  }
+
+  footer img {
+      margin-right: 20px;
+  }
+
+
 }
 
 /*
-.background2{ 
+.background2{
 background-image: url("common/background.png");
 z-index: -2;
 padding:0px;
@@ -55,7 +138,7 @@ margin:0px;
 width: 100%;
 min-height:100px;
 height:350px;
-} 
+}
 
 .background{
 background-image: url("background.png");
@@ -95,7 +178,7 @@ display: table-cell;
     font-size: 50pt;
     padding: 10px;
     text-align: center;
- 
+
 }
 
 .wannalogo{
@@ -107,7 +190,7 @@ display: table-cell;
 
 
 
-.youmielogo 
+.youmielogo
 {
 	width: 170px;
 	height: 170px;
