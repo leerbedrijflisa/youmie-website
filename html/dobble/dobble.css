@@ -40,7 +40,6 @@ article h1
 {
 	margin: 0px;
 	font-size: 15px;
-	padding: 20px 20px 10px 20px;
 	font-weight: normal;
 }
 
@@ -73,6 +72,11 @@ article h1
 	{
 		padding: 10px 20px 20px 20px;
 	}
+	
+	article h1
+	{
+		padding: 20px 20px 10px 20px;
+	}
 }
 
 /*The code below is style that only applies to that element when it is smaller than 600px. This style is used for mobile devices and small tablets.*/
@@ -96,14 +100,26 @@ article h1
 	
 	section img
 	{
-		width: 250px;
-		margin: 5px 5px 5px 0;
+		width:40%;
+		margin: 35px 5px 5px 0;
 		overflow: right;
 		float: left;   
 	}
 
 	section p
 	{
-		padding: 5px 0 5px 0;
+		padding: 35px 0 5px 0;
+	}
+	
+	article
+	{
+		position: relative;
+	}
+	
+	article h1
+	{
+		width: 100%;
+		position: absolute;
+		padding: 8px 5px 8px 5px;
 	}
 }
