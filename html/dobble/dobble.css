@@ -1,9 +1,8 @@
+/* This CSS is dobble page specific. The styling for the header part of the page can be found in the style.css */
+
 section
 {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	margin: 0 auto 0 auto;
 	display: block;
 	max-width: 1130px;
 	overflow: hidden;
@@ -41,12 +40,11 @@ article h1
 {
 	margin: 0px;
 	font-size: 15px;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
+	padding: 20px 20px 10px 20px;
 	font-weight: normal;
 }
+
+/*The code below is style that only applies to that element when it is wider than 601px*/
 
 @media all and (min-width: 601px)
 {
@@ -62,10 +60,7 @@ article h1
 	
 	section > h1
 	{
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin: 10px 20px 10px 20px;
 	}
 	
 	section img
@@ -76,12 +71,11 @@ article h1
 	
 	section p
 	{
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-bottom: 20px;
-		padding-top: 10px;
+		padding: 10px 20px 20px 20px;
 	}
 }
+
+/*The code below is style that only applies to that element when it is smaller than 600px. This style is used for mobile devices and small tablets.*/
 
 @media all and (max-width: 600px)
 {
@@ -90,38 +84,26 @@ article h1
 		margin-left: 0px;
 		margin-bottom: 10px;
 		margin-top: 10px;
-		padding-left: 1%;
-		padding-right: 1%;
-		padding-bottom: 0px;
-		padding-top: 0px;
+		padding: 0 1% 0 1%;
 		width: 98%;
 		height: auto;
 	}
 	
 	section > h1
 	{
-		margin-left: 1%;
-		margin-right: 1%;
-		margin-top: 8px;
-		margin-bottom: 8px;
+		margin: 8px 1% 8px 1%;
 	}
 	
 	section img
 	{
 		width: 250px;
-		margin-top: 5px;
-		margin-right: 5px;
-		margin-left: 0px;
-		margin-bottom: 5px;
+		margin: 5px 5px 5px 0;
 		overflow: right;
-		float: left;
+		float: left;   
 	}
 
 	section p
 	{
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 5px;
-		padding-top: 5px;
+		padding: 5px 0 5px 0;
 	}
 }

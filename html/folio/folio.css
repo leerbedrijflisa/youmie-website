@@ -1,3 +1,5 @@
+/* This CSS is folio page specific. The styling for the header part of the page can be found in the style.css */
+
 section
 {
 	background-color: #DEDEDE;
@@ -26,11 +28,10 @@ section p
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-bottom: 10px;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-top: 0px;
+	padding: 0 0 10px 0;
 }
+
+/*The code below is style that only applies to that element when it is wider than 601px*/
 
 @media all and (min-width: 601px)
 {	
@@ -46,6 +47,8 @@ section p
 		margin-right: 20px;
 	}
 }
+
+/*The code below is style that only applies to that element when it is smaller than 600px. This style is used for mobile devices and small tablets.*/
 
 @media all and (max-width: 600px)
 {

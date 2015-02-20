@@ -1,3 +1,5 @@
+/* The style in this css document is used in multiple pages. The page specific style can be found in the folder of the specific page. */
+
 body
 {
 	margin: 0px;
@@ -36,39 +38,32 @@ header iframe
 header div
 {
 	max-width: 1090px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0 auto 0 auto; 
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 header h2
 {
-	padding-right: 0px;
-	padding-left: 0;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px 0 10px 0;
 	margin: 0;
 }
 
 header p
 {
-	padding-right: 0px;
-	padding-left: 0;
-	padding-bottom: 10px;
-	padding-top: 0;
+	padding: 0 0 10px 0;
 	margin: 0;
 }
+
+/*The code below is style that only applies to that element when it is wider than 601px*/
 
 @media all and (min-width: 601px)
 {	
 	header img
 	{
 		width: 350px;
-		padding-left: calc(50% - 175px);
-		padding-right: calc(50% - 175px);
+		padding-left: calc(50% - 175px); /*Calculates how many padding on the left and right is needed to fill the background of the image to 100% width.*/
+		padding-right: calc(50% - 175px); /*The value -175 is half of the image, the value 50% is half of the window width.*/
 	}
 
 	header div
@@ -79,22 +74,21 @@ header p
 	
 	header iframe
 	{
-		margin-left: 10px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-top: 0px;
+		margin: 0 0 0 10px;
 		overflow: left;
 		float: right;
 	}
 }
+
+/*The code below is style that only applies to that element when it is smaller than 600px. This style is used for mobile devices and small tablets.*/
 
 @media all and (max-width: 600px)
 {
 	header img
 	{
 		width: 200px;
-		padding-left: calc(50% - 100px);
-		padding-right: calc(50% - 100px);
+		padding-left: calc(50% - 100px); /*Calculates how many padding on the left and right is needed to fill the background of the image to 100% width.*/
+		padding-right: calc(50% - 100px); /*The value -100 is half of the image, the value 50% is half of the window width.*/
 	}
 
 	header div
@@ -105,9 +99,6 @@ header p
 	
 	header iframe
 	{
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 5px;
-		margin-top: 10px;
+		margin: 10px 0 5px 0;
 	}
 }
