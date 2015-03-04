@@ -20,15 +20,14 @@ section > article
 
 section h1
 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 20px 10px 20px;
 }
 
 section p
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding: 0 0 10px 0;
+	padding: 0 20px 10px 20px;
 }
 
 /*The code below is style that only applies to that element when it is wider than 601px*/
